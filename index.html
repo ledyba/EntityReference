@@ -8,25 +8,25 @@
 <link rel="stylesheet" type="text/css" media="screen" href="style.css" charset="UTF-8" />
 <script type="text/javascript" src="prototype.js"></script>
 <script type="text/javascript" src="convert.js"></script>
-<title>文字列⇔数値実体参照相互変換</title>
+<title>文字列⇔数値文字参照相互変換</title>
 </head>
 <body>
 <div id="main">
-	<div id="header">文字列⇔数値実体参照相互変換</div>
+	<div id="header">文字列⇔数値文字参照相互変換</div>
 	<div id="discription">
-	「&amp;#9734;」のような数値実体参照と、実際の文字列(&#9734;)の変換を相互に行ないます。逆変換してくれるのがなかったので作りました。
+	「&amp;#9734;」のような数値文字参照と、実際の文字列(&#9734;)の変換を相互に行ないます。逆変換してくれるのがなかったので作りました。
 	</div>
 	<div id="panel">
 			<h3>文字列</h3>
 			<textarea id="original" rows="4" cols="40"></textarea>
-			<input class="convert_button" type="button" value="↓実体参照にする↓" onclick="str2conv();" onkeypress="str2conv();" />
+			<input class="convert_button" type="button" value="↓数値文字参照にする↓" onclick="str2conv();" onkeypress="str2conv();" />
 			<input class="convert_button" type="button" value="↑文字列に戻す↑" onclick="conv2str();" onkeypress="conv2str();" />
-			<h3>数値実体参照</h3>
+			<h3>数値文字参照</h3>
 			<textarea id="converted" rows="4" cols="40"></textarea>
 		</div>
 	</div>
 	<div id="footer">
-	(C)2010 <A href="http://ledyba.ddo.jp/">ψ（プサイ）の興味関心空間</a>
+	(C)2011 <A href="http://ledyba.ddo.jp/">ψ（プサイ）の興味関心空間</a>
 	</div>
 </div>
 </body>
